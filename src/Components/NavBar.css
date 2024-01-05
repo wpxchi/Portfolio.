@@ -1,0 +1,38 @@
+.custom-navbar {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  }
+  
+  .custom-navbar-brand {
+    color: #ffffff; /* Color del texto del Navbar Brand */
+  }
+  
+  .custom-navbar-toggler {
+    border-color: #ffffff; /* Color del borde del botón del Navbar Toggler */
+  }
+  
+  .custom-navbar-toggler-icon {
+    background-color: #ffffff; /* Color del icono del Navbar Toggler */
+  }
+  
+  .custom-navbar-link {
+    color: #ffffff; /* Color del texto de los enlaces del Navbar */
+  }
+  
+  .custom-navbar-link:hover,
+  .custom-navbar-link:focus {
+    color: #17a2b8; /* Color del texto de los enlaces al pasar el ratón o al estar enfocado */
+  }
+  
+  .custom-navbar-dropdown {
+    background-color: #343a40; /* Color de fondo del menú desplegable del Navbar */
+  }
+  
+  .custom-navbar-dropdown-link {
+    color: #ffffff; /* Color del texto de los enlaces del menú desplegable del Navbar */
+  }
+  
+  .custom-navbar-dropdown-link:hover,
+  .custom-navbar-dropdown-link:focus {
+    background-color: #17a2b8; /* Color de fondo del enlace del menú desplegable al pasar el ratón o al estar enfocado */
+    color: #ffffff; /* Color del texto del enlace del menú desplegable al pasar el ratón o al estar enfocado */
+  }

@@ -1,0 +1,25 @@
+.container-about-me {
+    background: linear-gradient(90deg, #3f2b96 0%, #a8c0ff 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-me-container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para la imagen */
+  .container-about-me img {
+    width: 15%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+   
+  }

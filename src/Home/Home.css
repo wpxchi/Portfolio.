@@ -1,0 +1,61 @@
+body {
+    overflow: hidden; /* Evita que la página se deslice */
+  }
+  
+  .homepage-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    overflow: hidden; /* Evita que el contenido se deslice fuera del contenedor */
+  }
+  
+  .homepage-content {
+    z-index: 2;
+    color: #fff;
+    padding: 20px;
+    width: 50%; /* Ajusta según sea necesario */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ejemplo de fuente más elegante */
+  }
+  
+  .homepage-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold; /* Opcional: agrega negrita al título */
+  }
+  
+  .homepage-subtitle {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-style: italic; /* Opcional: agrega cursiva al subtítulo */
+  }
+  
+  .homepage-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5; /* Opcional: ajusta la altura de línea para mejorar la legibilidad */
+  }
+  
+  .homepage-image {
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    object-fit: cover;
+    object-position: left;
+  }
+  
+  .homepage-image2 {
+    z-index: 1;
+    max-width: 50%; /* Ajusta según sea necesario */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 30px; /* Ajusta según sea necesario */
+    margin-left: 100px; /* Ajusta la distancia hacia la derecha según sea necesario */
+    object-fit: cover;
+    object-position: left;
+  }
